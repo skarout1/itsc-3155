@@ -78,7 +78,7 @@ class SandwichMachine:
 
 ### Make an instance of SandwichMachine class and write the rest of the codes ###
 
-while True:
+while True: 
     action = input("What would you like? (small/ medium/ large/ off/ report): ")
     sand_type = {action: SandwichMachine(action)}
     if action == "off":
